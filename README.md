@@ -22,3 +22,21 @@ The p-Value for this model, p-Value: 5.35e-11, is much below the significance le
 This linear model has an r-squared value of 0.7149, which means approximately 71.5% of all mpg predictions will be determined by this model.Concurrently, Jeremy's multiple regression model does predict mpg of MechaCar prototypes effectively.
 
 Removing the less impactful independent variables (car weight, spoiler angle, and AWD), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.6825.
+
+# Deliverable 2
+## Summary Statistics on Suspension Coils
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+
+The suspension coil’s PSI continuous variable across all manufacturing lots
+The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
+
+First looking at all manufacturing lots:
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/104689265/187015384-8a964bc2-8560-4b10-a5cc-61e0f26adeff.png">
+
+Diving a little deeper into each of the 3 lots:
+
+<img width="908" alt="image" src="https://user-images.githubusercontent.com/104689265/187015429-19cd1b60-38f5-47cd-8263-d2f9c64b126e.png">
+
