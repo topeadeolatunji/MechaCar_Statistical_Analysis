@@ -25,7 +25,7 @@ Removing the less impactful independent variables (car weight, spoiler angle, an
 
 # Deliverable 2
 ## Summary Statistics on Suspension Coils
-The MechaCar Suspension_Coil.csv data file has the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, Jeremy create a summary statistics table to show:
+The MechaCar Suspension_Coil.csv data file has the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, Jeremy created a summary statistics table to show:
 
 The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
@@ -40,3 +40,8 @@ Diving a little deeper into each of the 3 lots:
 
 <img width="908" alt="image" src="https://user-images.githubusercontent.com/104689265/187015429-19cd1b60-38f5-47cd-8263-d2f9c64b126e.png">
 
+With the understanding that the design specs for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI) .
+
+When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement.
+
+Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing a much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
