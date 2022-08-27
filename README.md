@@ -25,7 +25,7 @@ Removing the less impactful independent variables (car weight, spoiler angle, an
 
 # Deliverable 2
 ## Summary Statistics on Suspension Coils
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+The MechaCar Suspension_Coil.csv data file has the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, Jeremy create a summary statistics table to show:
 
 The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
