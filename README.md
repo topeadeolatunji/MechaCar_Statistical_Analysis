@@ -76,7 +76,8 @@ Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of k
 
 Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its category.
 
-Statistical tests to be conducted
+Statistical tests to be conducted:
+
 A multiple linear regression would be used to determine the factors that have the highest correlation with the price (dependent variable) and what other independent variables (such as MPG, safety rating, horsepower, etc) that has the greatest impact on price.
 
 
