@@ -10,4 +10,5 @@ An RScript is written to create the statistical summary of the linear regression
 There is a summary that addresses all three questions:
 
 Result of linear regression modelling:
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/187011043-8e2629c3-205f-444d-be74-fc7afc0736d4.png">
+<img width="887" alt="image" src="https://user-images.githubusercontent.com/104689265/187011465-125edbf1-3273-42af-9c12-c928c929212b.png">
+
