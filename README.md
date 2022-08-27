@@ -50,37 +50,33 @@ Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within th
 
 ## t-Tests on Suspension Coils
 
-From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+The true mean of the sample is 1498.78, consistent with the summary statistics above. The p-Value of all 3 manufacturing lots is 0.06, which is higher than the assumed significance level of 0.05. Therefore, we will fail to reject the null hypothesis. This means that the mean of the three manufacturing lots is statistically similar to the population mean of 1500.
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/187037998-f1cf6a51-5a36-4943-adb8-ac7727401bf8.png">
 
-Next looking at each individual lots:
+Lot 1 sample has the true sample mean of 1500. With a p-Value of 1, we will fail to reject the null hypothesis, meaning that there is no statistical difference between lot 1 sample mean and the population mean.
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/187038131-00a6439c-a862-4f37-ba2d-94255eaf9326.png">
 
-Lot 1 sample actually has the true sample mean of 1500, again as we saw in the summary statistics above. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
-Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
-However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+Lot 2 has the same result with sample mean of 1500.02, a p-Value of 0.61; the null hypothesis should be accepted, and the sample mean and the population mean are statistically similar.
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/187038189-a6f8f7a9-342a-478c-a588-79d5a7c2c5da.png">
+
+Lot 3 is a different scenario: The sample mean is 1496.14 and the p-Value is 0.04. This is lower than the significance level of 0.05. Therefore, we will reject the null hypothesis that this sample mean and the population mean are not statistically different.
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/104689265/187038252-718cb33c-ae3c-4d8f-99f5-e8d1e3d3d686.png">
+
 
 # Deliverable 4
 
 ## Study Design: MechaCar vs Competition
 
-Metrics
-
-Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
-
-Safety Feature Rating: Independent Variable
-Current Price (Selling): Dependent Variable
-Drive Package : Independent Variable
-Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
-Resale Value: Independent Variable
-Average Annual Cost of ownership (Maintenance): Independent Variable
-MPG (Gasoline Efficiency): Independent Variable
-Hypothesis: Null and Alternative
+Metrics to be tested:
+The metrics to test should be the price, MPG, safety rating, horsepower and drive package.
 
 After determining which factors are key for the MechaCar's genre:
 
-Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
-Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
-Statistical Tests
+Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its category.
 
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be all of them!)
+Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its category.
+
+Statistical tests to be conducted
+A multiple linear regression would be used to determine the factors that have the highest correlation with the price (dependent variable) and what other independent variables (such as MPG, safety rating, horsepower, etc) that has the greatest impact on price.
 
 
